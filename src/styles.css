@@ -1,0 +1,68 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+.header {
+  background-color: rgb(135, 231, 233);
+  border: 2px solid whitesmoke;
+  height: 70px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  display: block;
+
+
+
+}
+.content {
+  background-color: whitesmoke;
+  min-height: 500px;
+  border:whitesmoke;
+  padding-left: 12px;
+  padding-right: 12px;
+
+
+}
+.footer {
+  background-color: rgb(135, 231, 233);
+  height: 50px;
+  border: 2px solid whitesmoke;
+  border-end-end-radius: 10px;
+  border-end-start-radius: 10px;
+  text-align: center;
+}
+body{
+  background-color: rgb(209, 211, 212);
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5px;
+
+}
+
+.sidebar {
+
+  background-color: rgb(230, 223, 223);
+  border-right: 2px double rgb(168, 167, 164);
+}
+
+
+
+#menulist {
+  cursor: pointer;
+  background-color: rgb(230, 223, 223);
+
+}
+li {
+  padding:5px;
+  font-size: 20px;
+  text-decoration: none;
+  left: 2px;
+}
+
+p {
+  font-size: 24px;
+  font:bold;
+}
+h5 {
+  margin-top: 5px;
+}
+btn-primary {
+  right: 0;
+}

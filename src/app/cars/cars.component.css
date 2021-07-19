@@ -1,0 +1,11 @@
+ol {
+  overflow-y: scroll;
+  height: 500px;
+  background-color: rgb(230, 223, 223);
+  cursor: pointer ;
+}
+main-content {
+  overflow-y: scroll;
+  height: 500px;
+  background-color: rgb(230, 223, 223);
+}

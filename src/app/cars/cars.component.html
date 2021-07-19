@@ -1,0 +1,28 @@
+
+
+<div class="container-fluid">
+
+  <div class="header" >
+    <h5 style="text-align: center;">CAR INFORMATION</h5>
+
+  </div>
+  <div class="content">
+    <div class="row">
+      <div class="col-3 sidebar">
+        <div class="list-group">
+          <p style="text-align: center">CAR LIST</p>
+          <ol>
+            <li *ngFor="let car of carList" (click)="getCarInfo(car)" > {{ car.carModel }}</li>
+          </ol>
+        </div>
+      </div>
+      <div class="col-9 main-content">
+        <app-car [car]  = "selectedCar"></app-car>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+
+  </div>
+</div>
+
